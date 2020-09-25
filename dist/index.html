@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pico y Placa</title>
+</head>
+<body>
+  <main>
+    <form class="user-form">
+      <h1>CALCULADORA PICO Y PLACA</h1>
+      <div class="plate-number">
+        <label for="plate-last-digit">PLACA DEL AUTOMOTOR:</label>
+        <input type="text" name="plate-last-digit" id="plate-last-digit" required pattern="^[A-Za-z]{1,3}-[0-9]{3,4}$" placeholder="ABC-0000" >
+      </div>
+      <div class="plate-date">
+        <label for="usage-date">FECHA DE USO DE CARRO:</label>
+        <input type="text" id="usage-date" name="usage-date" required pattern="^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$" placeholder="DD/MM/AAAA">
+      </div>
+      <div class="plate-time">
+        <label for="usage-time">HORA DE USO DE CARRO:</label>
+        <input type="time" id="usage-time" name="usage-time" required>
+      </div>
+      <input type="submit" value="CALCULAR" class="submit">
+    </form>
+    <div class="result-container">
+      <p class="result-text"></p>
+    </div>
+  </main>
+  <script src="bundle.js"></script>
+</body>
+</html>

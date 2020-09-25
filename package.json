@@ -1,0 +1,40 @@
+{
+  "name": "stackbuilders-picoyplaca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaropazz/stackbuilders-picoyplaca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaropazz/stackbuilders-picoyplaca/issues"
+  },
+  "homepage": "https://github.com/alvaropazz/stackbuilders-picoyplaca#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-jest": "^26.3.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.4.2",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
