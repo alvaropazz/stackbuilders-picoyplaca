@@ -1,13 +1,28 @@
 import './styles.css';
-import hoyNoCircula from './logic/hoyNoCircula';
+import picoYPlaca from './logic/picoYPlaca';
+import compareTime from './logic/compareTime';
+import transformDate from './logic/transformDate';
+import lastDigit from './logic/lastDigit';
 
 const form = document.querySelector('.user-form');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const plateSelect = form.querySelector('select[id="plate-last-digit"]').value;
-  const plateDigit = parseInt(plateSelect, 10);
+  /* Last Digit Info */
+  const plateSelect = form.querySelector('input[id="plate-last-digit"]').value;
+  /* Date Info */
   const dateSelect = form.querySelector('input[id="usage-date"]').value;
-  const dayOfWeek = new Date(dateSelect).getDay();
-  hoyNoCircula(plateDigit, dayOfWeek);
+  /* Time Info */
+  const timeSelect = form.querySelector('input[id="usage-time"]').value;
+  /* Processing */
+  const resultDisplay = document.querySelector('.result-text');
+  if (picoYPlaca(lastDigit(plateSelect),
+    transformDate(dateSelect),
+    compareTime(timeSelect)) === true) {
+    resultDisplay.innerHTML = 'NO PUEDE CIRCULAR';
+  } else {
+    resultDisplay.innerHTML = 'PUEDE CIRCULAR';
+  }
+  /* Reset */
+  form.reset();
 });
