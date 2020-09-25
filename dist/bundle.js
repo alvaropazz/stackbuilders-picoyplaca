@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"html {\\n  -webkit-box-sizing: border-box;\\n  -moz-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n\\n*,\\n*::before,\\n*::after {\\n  -webkit-box-sizing: inherit;\\n  -moz-box-sizing: inherit;\\n  box-sizing: inherit;\\n}\\n\\nbody {\\n  font-size: 10px;\\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\\n  text-align: center;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"html {\\n  -webkit-box-sizing: border-box;\\n  -moz-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n\\n*,\\n*::before,\\n*::after {\\n  -webkit-box-sizing: inherit;\\n  -moz-box-sizing: inherit;\\n  box-sizing: inherit;\\n}\\n\\nbody {\\n  font-size: 10px;\\n  height: 100vh;\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n  text-align: center;\\n  background: rgb(218, 163, 106);\\n  background: linear-gradient(0deg, rgba(218, 163, 106, 1) 0%, rgba(196, 156, 208, 1) 100%);\\n  display: flex;\\n  justify-content: center;\\n  padding-top: 100px;\\n}\\n\\nmain {\\n  background-color: #fff;\\n  width: 500px;\\n  padding: 40px;\\n  height: 650px;\\n  color: #3d3d3d;\\n  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);\\n  -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);\\n  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);\\n  border-radius: 4px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\nform {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.plate-number {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.plate-date {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.plate-time {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\nh1 {\\n  font-size: 2.5em;\\n  margin-top: 0;\\n  margin-bottom: 40px;\\n  font-weight: bold;\\n}\\n\\nlabel {\\n  font-size: 1.8em;\\n  margin-bottom: 20px;\\n}\\n\\ninput {\\n  width: 80%;\\n  text-align: center;\\n  margin-bottom: 20px;\\n  padding: 10px;\\n  border: 0.2em solid #dcdcdc;\\n  border-radius: 4px;\\n}\\n\\n.submit {\\n  margin-top: 20px;\\n  width: 50%;\\n  padding: 20px;\\n  font-size: 1.3em;\\n  color: #fff;\\n  background-color: #27ae5f;\\n  border: none;\\n  border-radius: 4px;\\n  font-weight: bold;\\n}\\n\\n.result-container {\\n  margin-top: 30px;\\n  border: 3px solid #27ae5f;\\n  width: 70%;\\n  border-radius: 4px;\\n  height: 50px;\\n  display: flex;\\n  font-weight: bold;\\n  align-items: center;\\n  justify-content: center;\\n  font-size: 20px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -130,7 +130,55 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log(\"This is bundled!\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _logic_picoYPlaca__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logic/picoYPlaca */ \"./src/logic/picoYPlaca.js\");\n/* harmony import */ var _logic_compareTime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logic/compareTime */ \"./src/logic/compareTime.js\");\n/* harmony import */ var _logic_transformDate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./logic/transformDate */ \"./src/logic/transformDate.js\");\n/* harmony import */ var _logic_lastDigit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./logic/lastDigit */ \"./src/logic/lastDigit.js\");\n\n\n\n\n\nvar form = document.querySelector('.user-form');\nform.addEventListener('submit', function (e) {\n  e.preventDefault();\n  /* Last Digit Info */\n\n  var plateSelect = form.querySelector('input[id=\"plate-last-digit\"]').value;\n  /* Date Info */\n\n  var dateSelect = form.querySelector('input[id=\"usage-date\"]').value;\n  /* Time Info */\n\n  var timeSelect = form.querySelector('input[id=\"usage-time\"]').value;\n  /* Processing */\n\n  var resultDisplay = document.querySelector('.result-text');\n\n  if (Object(_logic_picoYPlaca__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(Object(_logic_lastDigit__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(plateSelect), Object(_logic_transformDate__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(dateSelect), Object(_logic_compareTime__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(timeSelect))) {\n    resultDisplay.innerHTML = 'NO PUEDE CIRCULAR';\n  } else {\n    resultDisplay.innerHTML = 'PUEDE CIRCULAR';\n  }\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/logic/compareTime.js":
+/*!**********************************!*\
+  !*** ./src/logic/compareTime.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar compareTime = function compareTime(time) {\n  var split = time.split(':');\n  var totalSeconds = parseInt(split[0] * 3600 + split[1] * 60, 10);\n  /* These are the (old) pico y placa time ranges in seconds */\n\n  var timeRanges = {\n    morningLowerLimit: 25200,\n    morningUpperLimit: 34200,\n    afternoonLowerLimit: 57600,\n    afternoonUpperLimit: 70200\n  };\n\n  if (totalSeconds >= timeRanges.morningLowerLimit && totalSeconds <= timeRanges.morningUpperLimit || totalSeconds >= timeRanges.afternoonLowerLimit && totalSeconds <= timeRanges.afternoonUpperLimit) {\n    return true;\n  }\n\n  return false;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (compareTime);\n\n//# sourceURL=webpack:///./src/logic/compareTime.js?");
+
+/***/ }),
+
+/***/ "./src/logic/lastDigit.js":
+/*!********************************!*\
+  !*** ./src/logic/lastDigit.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar lastDigit = function lastDigit(plate) {\n  var plateLength = plate.length;\n  var plateLast = plate.charAt(plateLength - 1);\n  return parseInt(plateLast, 10);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (lastDigit);\n\n//# sourceURL=webpack:///./src/logic/lastDigit.js?");
+
+/***/ }),
+
+/***/ "./src/logic/picoYPlaca.js":
+/*!*********************************!*\
+  !*** ./src/logic/picoYPlaca.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar picoYPlaca = function picoYPlaca(plate, date, time) {\n  if (date === 1 && (plate === 1 || plate === 2) && time) {\n    return true;\n  }\n\n  if (date === 2 && (plate === 3 || plate === 4) && time) {\n    return true;\n  }\n\n  if (date === 3 && (plate === 5 || plate === 6) && time) {\n    return true;\n  }\n\n  if (date === 4 && (plate === 7 || plate === 8) && time) {\n    return true;\n  }\n\n  if (date === 5 && (plate === 9 || plate === 0) && time) {\n    return true;\n  }\n\n  return false;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (picoYPlaca);\n\n//# sourceURL=webpack:///./src/logic/picoYPlaca.js?");
+
+/***/ }),
+
+/***/ "./src/logic/transformDate.js":
+/*!************************************!*\
+  !*** ./src/logic/transformDate.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar transformDate = function transformDate(date) {\n  var split = date.split('/');\n  var dateObj = new Date(+split[2], split[1] - 1, +split[0]);\n  return dateObj.getDay();\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (transformDate);\n\n//# sourceURL=webpack:///./src/logic/transformDate.js?");
 
 /***/ }),
 
