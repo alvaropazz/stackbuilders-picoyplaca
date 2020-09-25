@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
   const resultDisplay = document.querySelector('.result-text');
   if (picoYPlaca(lastDigit(plateSelect),
     transformDate(dateSelect),
-    compareTime(timeSelect)) === true) {
+    compareTime(timeSelect))) {
     resultDisplay.innerHTML = 'NO PUEDE CIRCULAR';
   } else {
     resultDisplay.innerHTML = 'PUEDE CIRCULAR';
