@@ -1,3 +1,3 @@
 import './styles.css';
 
-console.log("Hello from JavaScript!");
+console.log("This is bundled!");
