@@ -23,6 +23,4 @@ form.addEventListener('submit', (e) => {
   } else {
     resultDisplay.innerHTML = 'PUEDE CIRCULAR';
   }
-  /* Reset */
-  form.reset();
 });
