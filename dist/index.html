@@ -7,9 +7,34 @@
   <title>Pico y Placa</title>
 </head>
 <body>
-  <div>
-    <h1>hello guys</h1>
-  </div>
+  <main>
+    <form>
+      <h1>Calcular Pico y Placa</h1>
+      <div class="plate-number">
+        <label for="plate-last-digit">Ingrese el último dígito de su placa:</label>
+        <select name="plate-last-digit" id="plate-last-digit">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="0">0</option>
+        </select>
+      </div>
+      <div class="plate-date">
+        <label for="usage-date">Ingrese la fecha en la que desea usar su carro:</label>
+        <input type="date" id="usage-date" name="usage-date">
+      </div>
+      <button type="button">Calcular</button>
+    </form>
+    <div class="result-container">
+
+    </div>
+  </main>
   <script src="bundle.js"></script>
 </body>
 </html>
